@@ -1,0 +1,167 @@
+body,
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    display: inline-block;
+    width: 1400px;
+}
+.top-nav {
+    width: 100%;
+    display: inline-block;
+    background-color: blueviolet;
+}
+.top-nav>img {
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+.top-nav>p {
+    width: 30%;
+    display: inline-block;
+    float: right;
+}
+.hero {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+   background: violet;
+}
+.hero-container{
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    background: blue;
+    text-align: center;
+    align-content: center;
+   
+}
+.hero-image > img {
+    width: 60%;
+}
+.middle-section {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+   background: green;
+}
+.middle-container {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    background: blue;
+    text-align: center;
+    align-content: center;
+}
+.main-left {
+    width: 50%;
+    display:inline-block;
+    float: left;
+}
+.main-right {
+    width: 50%;
+    display:inline-block;
+    float: right;
+}
+
+.bottom-section {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+   background: orange;
+}
+.bottom-container {
+    display: inline-block;
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    background: grey;
+    text-align: center;
+    align-content: center;
+}
+.bottom-left-column {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.bottom-left-column > img {
+    width: 300px;
+}
+.bottom-right-column {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+.review-column {
+    display: inline-block;
+    width: 100%;
+    background-color: aqua;
+}
+.reviews {
+    display: inline-block;          
+    width: 30%;
+    background-color: black;
+
+}
+footer {
+width: 100%;
+display: inline-block;
+height: 50vh;
+background-color: aquamarine;
+}
+.footer-container {
+width: 80%;
+margin-left: 10%;
+margin-top: 10%;
+
+}
+.form-container {
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+}
+
+.footer-logo{
+
+}
+.footer-text {
+    width: 20%;
+    display: inline-block;
+}
+.contact-section {
+    width: 20%;
+    display: inline-block;
+}
+.footer-nav {
+    width: 20%;
+    display: inline-block;
+}
+.social-icons {
+    width: 10%;
+    display: inline-block;
+}
+
+
+
+/* " <p> Orientaciniai ekranų pločiai (px):
+    320
+    480
+    768
+    960
+    1200
+    1400
+    </p> */
+
+    
+    /* @media (max-width:1100px) {
+    
+        .row {
+            width: 600px;
+            margin-left: calc((100% - 600px) / 2);
+        }
+    } */
+
+  

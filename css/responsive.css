@@ -1,0 +1,153 @@
+
+@media (max-width:1200px) {
+    main{
+        width:1200px ;
+
+    }
+    .top-nav {
+        width: 1200px;}
+}
+@media (max-width:960px) {
+    main{
+        width:960px ;
+
+    }
+    .top-nav {
+        width: 960px; }
+
+}
+@media (max-width:768px) {
+    main{
+        width:768px ;
+
+    }
+    .top-nav {
+        width: 768px;}
+
+}
+@media (max-width:480px) {
+    main{
+        width:480px ;
+
+    }
+    .top-nav {
+        width: 480px;}
+
+    .hero-container {
+        width: 300px;
+        margin-left: calc((100% - 300px) / 2);
+    }
+    .middle-container {
+        width: 300px;
+        margin-left: calc((100% - 300px) / 2);
+    }
+    .bottom-container {
+        width: 300px;
+        margin-left: calc((100% - 300px) / 2);
+    }
+    .bottom-left-column > img {
+        width: 150px;
+    }
+    .form-container {
+        width: 300px;
+        margin-left: calc((100% - 300px) / 2);
+    }
+    .bottom-left-column {
+        width: 100%;
+    }
+    .bottom-right-column {
+        width: 100%;
+    }
+    .main-left{
+        width: 100%;
+    }
+    .main-right {
+        width: 100%;
+    }
+    .reviews {
+        width: 100%;
+    }
+    .footer-nav {
+        width: 100%;
+    }
+}
+@media (max-width:375px) {
+    main{
+        width:375px ;
+    }
+    .top-nav {
+        width: 375px;}
+
+    .hero-container {
+        width: 200px;
+        margin-left: calc((100% - 200px) / 2);
+    }
+    .middle-container {
+        width: 200px;
+        margin-left: calc((100% - 200px) / 2);
+    }
+    .bottom-container {
+        width: 200px;
+        margin-left: calc((100% - 200px) / 2);
+    }
+    .bottom-left-column {
+        display: block;
+        width: 60%;
+    }
+    .form-container {
+        width: 200px;
+        margin-left: calc((100% - 600px) / 2);
+    }
+    .main-left{
+        width: 100%;
+    }
+    .main-right {
+        width: 100%;
+    }
+    .reviews {
+        width: 100%;
+    }
+    .footer-nav {
+        width: 100%;
+    }
+}
+@media (max-width:320px) {
+    main{
+        width:320px ;
+
+    }
+    .top-nav {
+        width: 320px;}
+    .hero-container {
+        width: 200px;
+        margin-left: calc((100% - 200px) / 2);
+    }
+    .middle-container {
+        width: 200px;
+        margin-left: calc((100% - 200px) / 2);
+    }
+    .bottom-container {
+        width: 200px;
+        margin-left: calc((100% - 200px) / 2);
+    }
+    .bottom-left-column {
+        display: block;
+        width: 60%;
+    }
+    .form-container {
+        width: 200px;
+        margin-left: calc((100% - 600px) / 2);
+    }
+    .main-left{
+        width: 100%;
+    }
+    .main-right {
+        width: 100%;
+    }
+    .reviews {
+        width: 100%;
+    }
+    .footer-nav {
+        width: 100%;
+    }
+}
