@@ -27,15 +27,18 @@ main {
 }
 .top-nav>img {
     margin-left: 50px;
-    width: 10%;
+   
     display: inline-block;
     float: left;
 }
-.top-nav>p {
+.nav-texts {
+    margin-right: 50px;
+}
+.top-nav-text {
     color: white;
-    width: 5%;
     padding-left: 5px;
     margin-left: 5px;
+    margin-right: 50px;
     display: inline-block;
     float: right;
 }
@@ -79,22 +82,27 @@ margin-left: 15%;
 .middle-container {
     color: white;
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
     text-align: center;
     align-content: center;
-    margin-top: 70px;
+    margin-top: 120px;
 }
-.main-left {
-    width: 40%;
+.main-top-row {
+    display: inline-block;
+    width: 100%;
+}
+.top-left-column {
+    width: 45%;
     display:inline-block;
-    
+    float: left;
     margin-bottom: 50px;
 }
-.main-right {
+.top-right-column {
     margin-bottom: 50px;
-    width: 40%;
+    width: 45%;
     display:inline-block;
+    float: right;
    
 }
 .main-column-texts {
@@ -165,6 +173,7 @@ margin-top: 10%;
 
 }
 .form-container {
+    text-align: center;
     color: white;
     width: 600px;
     height: 170px;
