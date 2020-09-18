@@ -71,6 +71,12 @@ margin-left: 15%;
 .hero-image > img {
     width: 60%;
 }
+.get-started-btn {
+position: absolute;
+bottom: -50px;
+right: 25%;
+transform: translate(-25%);
+}
 
 
 .middle-section {
@@ -159,6 +165,26 @@ margin-left: 15%;
     margin-right: 40px;
 
 }
+.bottom-form {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 15px;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    right: -20%;
+    transform: translate(-20%)
+}
+.bottom-button {
+    width: 30%;
+    height: 30px;
+    display: inline-block;
+    float: right;
+    margin: 0;
+    
+}
+
 footer {
 width: 100%;
 display: inline-block;

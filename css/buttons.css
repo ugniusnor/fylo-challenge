@@ -1,4 +1,4 @@
-.getStartedBtn {
+.buttons {
     width: 200px;
     border-radius: 45px;
 padding:10px 30px;
@@ -8,8 +8,4 @@ background-image:linear-gradient( to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%
 border: 0;
 outline: none;
 color: white;
-position: absolute;
-bottom: -50px;
-right: 25%;
-transform: translate(-25%);
 }
