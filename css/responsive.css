@@ -43,7 +43,7 @@
         width: 100%;}
 
 }
-@media (max-width:480px) {
+@media (max-width:375px) {
     main{
         width:100% ;
 
@@ -74,6 +74,9 @@
             margin-right: 10px;
             
        
+        }
+        .getStartedBtn {
+            margin-left: calc((100% - 300px) / 2);
         }
         
 
