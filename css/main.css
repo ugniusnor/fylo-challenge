@@ -240,10 +240,11 @@ background-color: hsl(216, 53%, 9%);
 position: relative;
 }
 .footer-container {
-    color: white;
+    display: inline-block;
+color: white;
 width: 1300px;
 margin-left: calc((100% - 1300px) / 2);
-margin-top: 10%;
+margin-top: 8%;
 
 }
 .form-container {
@@ -256,33 +257,42 @@ margin-top: 10%;
     border: black 1px solid;
     position: absolute;
     top: -100px;
+    display: inline-block;
 }
 
 .footer-logo{
-
+margin-bottom: 30px;
 }
 .footer-text {
-    width: 20%;
+    width: 30%;
     display: inline-block;
-    margin-right: 10px;
+    height: 50%;
+    margin-right: 70px;
 }
 .contact-section {
-    width: 20%;
+    width: 15%;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 70px;
+    
 }
-.footer-nav {
-    width: 20%;
+.navigation {
+    width: 15%;
     display: inline-block;
-    margin-right: 10px;
-    list-style: none;
+    margin-right: 70px;
+    
 }
 ul {
+    
+    display:inline-block;
     list-style: none;
+  
+    padding-left: 20px;
+  
 }
+
 .social-icons {
     display: inline-block;
-    width: 10%;
+    width: 15%;
     padding-top: 5px;  
     padding-bottom: 5px;
     text-decoration: none;
