@@ -262,12 +262,14 @@ margin-top: 8%;
 
 .footer-logo{
 margin-bottom: 30px;
+margin-left: 40px;
 }
 .footer-text {
     width: 30%;
     display: inline-block;
     height: 50%;
     margin-right: 70px;
+    margin-left: 40px;
 }
 .contact-section {
     width: 15%;
@@ -298,6 +300,7 @@ ul {
     text-decoration: none;
     text-align: center;
     float: right;
+    margin-right: 30px;
    
 }
 .social-icons > .fa {
