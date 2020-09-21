@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body,
 body * {
 margin: 0;
 padding: 0;
 vertical-align: top;
 box-sizing: border-box;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+font-family: 'Open Sans', sans-serif;
 }
+
 a {
     text-decoration: none;
 }
@@ -19,11 +23,13 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 400px;
+   
 }
 .top-nav {
     width: 100%;
     display: inline-block;
     margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
 }
 .top-nav>img {
     margin-left: 50px;
@@ -32,6 +38,7 @@ main {
     float: left;
 }
 .nav-texts {
+    margin-top: 1px;
     margin-right: 50px;
 }
 .top-nav-text {
@@ -72,10 +79,11 @@ margin-left: 15%;
     width: 60%;
 }
 .get-started-btn {
-position: absolute;
-bottom: -50px;
-right: 25%;
-transform: translate(-25%);
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+
 }
 
 
@@ -118,7 +126,7 @@ transform: translate(-25%);
 .bottom-section {
     display: inline-block;
     width: 100%;
-    height: 140vh;
+    height: 150vh;
    
 }
 .bottom-container {
@@ -132,18 +140,18 @@ transform: translate(-25%);
 }
 .bottom-left-column {
     display: inline-block;
-    width: 50%;
+    width: 60%;
     float: left;
 }
 .bottom-left-column > img {
     display: inline-block;
-    width: 300px;
+    width: 100%;
     float: left;
 }
 .bottom-right-column {
     text-align: left;
     display: inline-block;
-    width: 50%;
+    width: 40%;
     float: right;
     margin-top: 70px;
 }
@@ -170,7 +178,9 @@ transform: translate(-25%);
     width: 100%;
     text-align: left;
     margin-top: 50px;
+    margin-bottom: 100px;
     z-index: 1;
+    color: white;
 }
 .reviews {
   
@@ -245,6 +255,7 @@ color: white;
 width: 1300px;
 margin-left: calc((100% - 1300px) / 2);
 margin-top: 8%;
+position: relative;
 
 }
 .form-container {
@@ -264,6 +275,11 @@ margin-top: 8%;
 margin-bottom: 30px;
 margin-left: 40px;
 }
+.location-icon {
+    position: absolute;
+    top: 85px;
+    left: 6px;
+}
 .footer-text {
     width: 30%;
     display: inline-block;
@@ -275,7 +291,10 @@ margin-left: 40px;
     width: 15%;
     display: inline-block;
     margin-right: 70px;
-    
+   
+}
+.contact-section > p {
+    margin-bottom: 10px;
 }
 .navigation {
     width: 15%;
@@ -303,6 +322,17 @@ ul {
     margin-right: 30px;
    
 }
+.email-icon {
+    position: absolute;
+    top: 120px;
+    left: 465px;
+}
+.phone-icon {
+    position: absolute;
+    top: 85px;
+    left: 465px;
+}
+
 .social-icons > .fa {
     color: white;
     text-decoration: none;
@@ -317,7 +347,7 @@ ul {
 a {
     color: white;
 }
-
+img { max-width: 100%; height: auto; }
 /* " <p> Orientaciniai ekranų pločiai (px):
     320
     480
