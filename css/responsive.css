@@ -320,15 +320,27 @@ footer {
     margin-top: 1702px;
 }
 .footer-container {
-    width: 80%;
+    width: 100%;
     margin-top: 400px;
     text-align: center;
+
 }
 
 .footer-logo, .footer-text, .contact-section, .navigation, .social-icons {
-   width: 100%;
+   width: 80%;
+   margin-left: 5%;
 }
-
+.footer-text {
+    width: 80%;
+    text-align: center;
+    margin-left: 5% ;
+}
+.footer-text > p {
+    margin-left: 10%;
+}
+ul{
+ width: 100%;
+}
 .contact-section
 
 }
