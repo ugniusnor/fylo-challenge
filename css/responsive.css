@@ -71,7 +71,7 @@
         width: 100%;}
 
 }
-@media (max-width:500px) {
+/* @media (max-width:500px) {
     main{
         width:100% ;
 
@@ -154,9 +154,9 @@
     .footer-container {
         width: 220px;
     }
-}
+} */
 
-@media (max-width:450px) {
+@media (max-width:500px) {
   
 main {
     width: 365px;
