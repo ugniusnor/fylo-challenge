@@ -70,13 +70,36 @@
         width: 100%;}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:500px) {
+    body {
+       width:  400px;
+    }
     main{
         width:100% ;
 
     }
+    
     .top-nav {
-        width: 100%;
+        width: 400px;
         display:inline-block;
     }
     .top-nav-text {
@@ -96,10 +119,12 @@
         .nav-texts {
             width: 65%;
             display:inline-block;
-            float: left;
+           
             margin: 0;
             margin-top: 10px;
-            margin-right: 5px;
+            float: right;
+            margin-right: 24px;
+
            
         }
       
@@ -149,11 +174,23 @@
     }
     .footer-nav {
         width: 100%;
+      
     }
     .footer-container {
         width: 220px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:500px) {
   
@@ -164,12 +201,7 @@ main {
 .hero {
     width: 365px;
 }
-.nav-texts {
-        width: 68%;
-    display: inline-block;
-    float: right;
-    margin-right: 24px;
-}
+
 
 .top-nav>img {
     
@@ -330,20 +362,58 @@ footer {
 
 }
 
-.footer-logo, .footer-text, .contact-section, .navigation, .social-icons {
+.footer-logo, .footer-text, .navigation {
    width: 80%;
-   margin-left: 5%;
+   margin-left: 10%;
+   text-align: left;
+}
+.footer-logo {
+    margin-left: 10%;
 }
 .footer-text {
     width: 80%;
     text-align: center;
-    margin-left: 5% ;
+    margin-left: 10% ;
 }
 .footer-text > p {
     margin-left: 10%;
+    text-align: left;
+    margin-bottom: 25px;
 }
+.social-icons {
+    width: 80%;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-section {
+    width: 80%;
+    text-align: left;
+    margin: 0;
+}
+.contact-section > p {
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
 ul{
  width: 100%;
+ margin-left:10px;
+ margin-top: 35px;
+}
+.footer-logo > img {
+    
+        max-width: 100%;
+        height: auto;
+        margin-left: 32px;
+    
+}
+.location-icon {
+    position: absolute;
+    top: 87px;
+    left: 42px;
 }
 
 
