@@ -102,6 +102,7 @@
     .top-nav {
         width: 100%;
         display:inline-block;
+        margin-top: 0;
     }
     .top-nav-text {
         display: inline-block;
