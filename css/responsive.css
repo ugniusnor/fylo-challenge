@@ -425,6 +425,16 @@ ul{
     top: 87px;
     left: 42px;
 }
+.phone-icon {
+    position: absolute;
+    top: 242px;
+    left: 38px;
+}
+.email-icon {
+    position: absolute;
+    top: 273px;
+    left: 38px;
+}
 
 
 
