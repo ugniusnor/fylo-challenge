@@ -92,14 +92,15 @@
 @media (max-width:500px) {
     body {
        width:  400px;
+       
     }
     main{
         width:100% ;
-
+        
     }
     
     .top-nav {
-        width: 400px;
+        width: 100%;
         display:inline-block;
     }
     .top-nav-text {
@@ -192,11 +193,14 @@
 
 
 
-@media (max-width:500px) {
-  
+@media (max-width:450px) {
+  body {
+      width: 375px;
+  }
 main {
-    width: 365px;
-    margin: 0;
+    width: 375px;
+    margin-left: calc((100% - 375px) / 2 );
+    margin-right: calc((100% - 375px) / 2 );
 }
 .hero {
     width: 365px;
@@ -312,7 +316,8 @@ main {
         border: black 1px solid;
        position: static;
         top: 1800px;
-        display: inline-block
+        display: inline-block;
+        margin-left:25px;
 }
 footer {
     z-index: 9999;
@@ -334,9 +339,13 @@ footer {
 
 }
 .bottom-form {
-    margin: 0;
-    position: absolute;
-    top: 100px;
+    .bottom-form {
+        margin: 0;
+        position: absolute;
+        top: 118px;
+        left: 62px;
+        margin-left: 35px;
+    }
 }
 .bottom-button {
     width: 80%;
@@ -359,6 +368,7 @@ footer {
     width: 100%;
     margin-top: 400px;
     text-align: center;
+   
 
 }
 
