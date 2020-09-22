@@ -340,12 +340,13 @@ footer {
 
 }
 .bottom-form {
+   
         margin: 0;
         position: absolute;
         top: 118px;
         left: 62px;
         margin-left: 35px;
-    }
+    
 }
 .bottom-button {
     width: 80%;
