@@ -1,11 +1,12 @@
 
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
     main{
         width:1200px ;
 
     }
     .top-nav {
         width: 100%;}
+
         .footer-container {
             display: inline-block;
             color: white;
@@ -69,7 +70,7 @@
     .top-nav {
         width: 100%;}
 
-}
+} */
 
 
 
@@ -365,6 +366,7 @@ footer {
     display: inline-block;
     margin-top: 1702px;
 }
+
 .footer-container {
     width: 100%;
     margin-top: 400px;
