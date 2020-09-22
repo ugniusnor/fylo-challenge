@@ -340,7 +340,6 @@ footer {
 
 }
 .bottom-form {
-    .bottom-form {
         margin: 0;
         position: absolute;
         top: 118px;
@@ -411,7 +410,7 @@ footer {
 
 ul{
  width: 100%;
- margin-left:10px;
+ margin-left:-18px;
  margin-top: 35px;
 }
 .footer-logo > img {
