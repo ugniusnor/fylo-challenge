@@ -1,6 +1,3 @@
-import {Services} from "./Services.js"
+import {render} from "./services.js"
 import {data} from "./data/serviceData.js"
-
-
-const service=new Services(data[0])
-console.log(service);
+render(data);

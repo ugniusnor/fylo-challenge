@@ -30,7 +30,7 @@ header {
     width: 100%;
     height: 80px;
     display: block;
-    background-color: transparent;
+    background-color: hsl(217, 28%, 15%);
 }
     .header-container {
       width: 95%;
@@ -75,8 +75,8 @@ header {
 
 .hero {
     width: 100%;
-    margin-top: 50px;
     background-color: hsl(217, 28%, 15%);
+    position: relative;
 }
 .hero-container {
     margin-left: 2.5%;
@@ -85,10 +85,12 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
     .hero .hero-image {
     width: 90%;
     max-width: 600px;
+    margin-top: 50px;
    
 }
 
@@ -125,6 +127,10 @@ header {
     flex-direction: column;
     padding: 20px 0;
     color: white;
+}
+.services .service img {
+    width: 80px;
+    height: 80px;
 }
 .service > h2 {
     margin: 20px 0;
@@ -208,7 +214,7 @@ header {
     position: absolute;
     left: 50%;
     right: 50%;
-    top: -15%;
+    top: -28%;
     transform: translateX(-50%);
 }
 .sub-texts {
@@ -236,7 +242,6 @@ footer {
     color: white;
     width: 100%;
     position: relative;
-    height: 145vh;
 }
 footer .footer-logo {
     width: 100%;
@@ -274,4 +279,35 @@ footer .footer-nav a:nth-child(4) {
     line-height: 30px;
     border: 1px solid white;
     margin: 20px 5px;
+}
+@media (min-width:850px) {
+    .presentation {
+        flex-direction: row;
+    }
+    .presentation .presentation-image img{
+        width: 90%;
+    }
+    .service {
+        width: 40%;
+        margin: 15px 38px;
+    }
+    .services {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.testimonials {
+flex-direction: row;
+justify-content: space-between;
+}
+.testimonials .testimonial {
+width: 28%;
+height: fit-content;
+min-height:220px;
+max-height: fit-content;
+
+
+}
+    
 }
