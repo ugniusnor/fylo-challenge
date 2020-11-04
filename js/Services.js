@@ -2,7 +2,7 @@
 function render(data) {
     const selector=document.querySelector(".services")
     let HTML="";
-    
+    console.log(data.length);
     for ( let i=0;i<data.length;i++) {
         if (data[i].active===true) {
             HTML+=`<div class="service">

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body,
 body * {
@@ -12,7 +12,8 @@ font-family: 'Open Sans', sans-serif;
 
 .section {
     margin-left: 2.5%;
-    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -49,6 +50,7 @@ header {
     align-items: center;
 }
 .navigation {
+    font-family: 'Raleway', sans-serif;
     float: right;
   display: flex;
   justify-content: space-between;
@@ -78,6 +80,7 @@ header {
     width: 100%;
     background-color: hsl(217, 28%, 15%);
     position: relative;
+    padding:80px 0;
 }
 .hero-container {
     margin-left: 2.5%;
@@ -86,13 +89,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
     .hero .hero-image {
     width: 90%;
     max-width: 600px;
-    margin-top: 50px;
-   
+    z-index: 99;
 }
 
         .hero .hero-container .hero-image img {
@@ -105,6 +106,7 @@ header {
         align-items: center;
         color: white;
         text-align: center;
+        z-index: 99;
     }
         .hero-text-box .hero-heading h2 {
             margin-top: 30px;
@@ -115,12 +117,19 @@ header {
         }
 .hero .hero-container .hero-btn{
     margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    z-index: 99;
 }
-
+.curve img {
+    width: 100%;
+    height: 370px;
+    position: absolute;
+    bottom: -3px;
+}
 .services {
     text-align: center;
-    margin-top: 100px;
 }
+
 .service {
     display: flex;
     justify-content: center;
@@ -135,10 +144,7 @@ header {
 }
 .service > h2 {
     margin: 20px 0;
-}
-
-.presentation {
-    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .presentation .presentation-image {
@@ -154,6 +160,7 @@ header {
     color: white;
 }
 .presentation .presentation-text-box h2 {
+    font-family: 'Raleway', sans-serif;
     margin: 20px 0;
 }
 .presentation .presentation-text-box p {
@@ -163,6 +170,9 @@ header {
     color: aqua;
     text-decoration: underline;
 }
+.presentation .presentation-text-box a img {
+    width: 22px;
+}
 .testimonials {
     display: flex;
     justify-content: center;
@@ -171,7 +181,6 @@ header {
     padding: 20px 0;
     padding-bottom: 200px;
     color: white;
-    
 }
 .testimonials .testimonial {
     width: 90%;
@@ -181,9 +190,18 @@ header {
     border-radius: 10px;
     margin: 30px 0;
 }
+.testimonials .testimonial:nth-child(1) {
+    position: relative;
+}
+.quate {
+    position: absolute;
+    top: -29px;
+    z-index: -1;
+    left: -12px;
+}
+
 .testimonials .testimonial:nth-child(4) {
     margin-bottom: 40px;
-    
 }
 .testimonial-texts{
     margin: 30px 10px;
@@ -191,20 +209,29 @@ header {
 .avatar-info {
     position: relative;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 68%;
+    height: 44px;
+    margin-left: 69px;
+    padding: -6px 10px;
 }
 .testimonials .testimonial .avatar {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    /* position: absolute; */
-    bottom: 0;
-    left: 0;
+    position: absolute;
+    top: 0;
+    left: -57px;
+}
+.testimonials .testimonial span {
+    font-size: 13px;
 }
 .sub {
+    font-family: 'Raleway', sans-serif;
     width: 90%;
-    max-width: 340px;
+    max-width: 610px;
     height: 340px;
     border-radius: 5%;
     background-color: hsl(217, 28%, 15%);
@@ -215,7 +242,7 @@ header {
     position: absolute;
     left: 50%;
     right: 50%;
-    top: -28%;
+    top: -40%;
     transform: translateX(-50%);
 }
 .sub-texts {
@@ -226,15 +253,34 @@ header {
     margin-bottom: 30px;
 }
 form {
-    width: 90%;
+    width: 80%;
 }
 .input {
-  width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    padding: 20px 12px;
+    margin-bottom: 20px;
+}
+.sub-button, .sub-form {
+    width: 100%;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sub-btn {
-    height: 50px;
-    width: 90%;
+    border-radius: 45px;
+    padding:10px 30px;
+    cursor: pointer;
+    background-image:linear-gradient( to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
     margin-top: 30px;
 }
 
@@ -243,35 +289,56 @@ footer {
     color: white;
     width: 100%;
     position: relative;
+    display: grid;
+    grid-template-columns: 50px 1.5fr 1.5fr 0.5fr 0.5fr 1fr;
+    grid-template-areas: ". logo logo logo logo logo"
+                         ". location contact-info nav1 nav2 socials"
+                         ". . . . . .";
+    row-gap: 30px;
 }
 footer .footer-logo {
     width: 100%;
-    padding: 20px 20px;
-    padding-top: 185px;
+    grid-area: logo;
+    padding-top: 200px;
+   
 }
-footer .footer-content {
-    width: 70%;
-    margin-left: 15%;
+.location {
+    grid-area: location;
 }
-footer .footer-content p {
-    margin: 10px 0;
-}
-
-footer .footer-nav {
+.phone {
+    grid-area: contact-info;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-    margin-left: 25px;
 }
-footer .footer-nav a {
-    margin-bottom: 20px;   
+.phone p {
+    padding: 10px 0;
 }
-footer .footer-nav a:nth-child(4) {
-    margin-top: 30px;
+footer .footer-nav1 {
+    grid-area: nav1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.icon {
+    padding-right: 20px;
+}
+
+footer .footer-nav2 {
+    grid-area: nav2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-align: left;
+}
+footer .footer-nav1 a, footer .footer-nav2 a{
+    padding: 10px 0;
 }
 .socials {
     width: 100%;
     text-align: center;
+    padding: 10px 0;
+ grid-area: socials;
 }
 .socials a {
     width: 30px;
@@ -279,7 +346,8 @@ footer .footer-nav a:nth-child(4) {
     border-radius: 50%;
     line-height: 30px;
     border: 1px solid white;
-    margin: 20px 5px;
+    margin-left: 10px;
+    
 }
 @media (min-width:850px) {
     .presentation {
@@ -307,8 +375,29 @@ width: 28%;
 height: fit-content;
 min-height:220px;
 max-height: fit-content;
-
-
 }
+}
+@media (max-width:850px) {
+    footer {
     
+        grid-template-columns: 25px 25px 1fr 1fr 55px;
+        grid-template-areas: ". . logo logo logo logo"
+                              ". . location location . ."
+                              ". . contact-info contact-info contact-info ."
+                              ". nav1 nav1 nav1 nav1 ."
+                              ". nav2 nav2 nav2 nav2 ."
+                              "socials socials socials socials socials socials";
+                             
+                             
+        row-gap: 30px;
+    }
+    .phone {
+        text-align: left;
+    }
+    .socials {
+        padding-bottom: 50px;
+    }
+    .sub {
+            top: -22%;
+        }
 }
